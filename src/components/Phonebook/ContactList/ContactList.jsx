@@ -19,7 +19,7 @@ ContactList.propTypes = {
     items: propTypes.arrayOf(propTypes.shape({
     id: propTypes.string.isRequired,
     name: propTypes.string.isRequired,
-    number: propTypes.number.isRequired,
+    number: propTypes.string.isRequired,
     }))
 }
 export default ContactList;
